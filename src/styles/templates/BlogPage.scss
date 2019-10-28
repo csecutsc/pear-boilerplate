@@ -1,0 +1,52 @@
+@import '../mixins';
+@import '../variables';
+
+.blog {
+    &__header {
+        margin-bottom: 20px;
+        border-bottom: 1.5px solid rgba($BLACK, 0.1);
+    }
+
+    &__title {
+        font-size: 2.2rem;
+    }
+
+    &__desc {
+        font-weight: bold;
+    }
+
+    &__tags {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    &__tag {
+        margin-right: 20px;
+        font-weight: bold;
+        color: rgba($BLACK, 0.6);
+
+        & > strong {
+            color: $BLACK;
+        }
+    }
+
+    &__footer {
+        margin-top: 20px;
+        display: flex;
+        width: 100%;
+    }
+
+    &__button {
+        margin-right: 20px;
+        &:nth-child(2) {
+            margin-right: 0;
+        }
+
+        &--back {
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+}
