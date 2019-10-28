@@ -49,4 +49,39 @@
             margin-right: 0;
         }
     }
+
+    &__content {
+        & p, & ul, & table {
+            line-height: 1.6;
+            font-size: 1.05rem;
+            margin-bottom: 25px;
+        }
+
+        & h2, & h3, & h4, & h5, & h6 {
+            margin-bottom: 5px;
+        }
+
+        & td {
+            padding-right: 20px;
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+
+        & th {
+            border-bottom: 1.5px solid $BLACK;
+        }
+
+        & a {
+            transition: color 0.2s ease-in-out 0s;
+            color: $PRIMARY;
+            &:hover {
+                color: adjust-color($PRIMARY, $lightness: -20%);
+            }
+
+            &:active {
+                color: adjust-color($PRIMARY, $lightness: -40%);
+            }
+        }
+    }
 }

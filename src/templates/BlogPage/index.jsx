@@ -14,7 +14,10 @@ const BlogPage = ({ data }) => {
     <Page className='blog'>
       <Seo title={headerProps.title} />
       <Header {...headerProps} />
-      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <div
+        className='blog__content'
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
       <Footer order={order} edges={data.allMarkdownRemark.edges} />
     </Page>
   );
