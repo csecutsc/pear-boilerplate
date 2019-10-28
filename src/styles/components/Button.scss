@@ -2,7 +2,9 @@
 @import '../variables';
 
 .button {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
     padding: 14px 28px;
     background-color: $BLACK;
     border-radius: 8px;

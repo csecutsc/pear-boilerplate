@@ -21,7 +21,7 @@ Here are some of the plugins being used in this repo,
 | **gatsby-plugin-react-helmet** | Helps with setting up basic head tags with helmet |
 | **gatsby-plugin-sass** | Helps set up webpack for sass |
 | **gatsby-plugin-sharp** | Implements lazy loading and image scaling for image files |
-| **gatsby-plugin-web-font-loader** | Loads web fots |
+| **gatsby-plugin-web-font-loader** | Loads web fonts |
 | **gatsby-source-filesystem** | Adds files from a directory into GraphQL |
 | **gatsby-transformer-remark** | Transforms markdown files into nodes in GraphQL with HTML |
 | **gatsby-transformer-sharp** | Transforms image files into nodes in GraphQL for gatsby-plugin-sharp |
