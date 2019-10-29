@@ -2,6 +2,7 @@
 title: "What's in the Box?"
 description: 'Learn more about the plugins currently loaded into the repository'
 author: 'Frederic Pun'
+image: ../../assets/demo.jpeg
 date: '2019-10-28'
 order: 2
 ---
